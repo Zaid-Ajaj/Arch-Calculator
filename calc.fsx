@@ -158,7 +158,6 @@ let view model =
     div
         [ Style [ ("width", "407px"); ("border", "2px black solid"); ("border-radius", "15px"); ("padding", "10px")]]
         [
-            h2 [] [text "Arch Calculator"]
             h2 [ Style [("padding-left", "20px"); ("height", "30px")] ] [ text (modelString model) ]
             br []
             table 
